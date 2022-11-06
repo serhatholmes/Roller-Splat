@@ -23,6 +23,6 @@ public class GameManager : MonoBehaviour
     }
 
     public void LevelUpdate(){
-        SceneManager.LoadScene(currentLevel+1);
+        SceneManager.LoadScene(currentLevel);
     }
 }
